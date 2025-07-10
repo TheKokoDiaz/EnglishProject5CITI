@@ -30,12 +30,12 @@ poster3 = new poster({
     info: ""
 });
 
-posterX = new poster({
+/* posterX = new poster({
     title: "",
     owners: "",
     image: "../images/",
     info: ""
-});
+}); */
 
 imageArray = [poster1, poster2, poster3];
 
@@ -44,6 +44,8 @@ const headerTitle = document.getElementById("headerTitle");
 const headerOwners = document.getElementById("headerOwners");
 
 const reel = document.getElementById("reel");
+
+const slide = document.getElementById("slide");
 
 //! Functions
 function drawPosters(){
@@ -60,6 +62,33 @@ function focusPoster(poster, index){
     headerOwners.innerText = '"' + imageArray[index].owners + '"';
 
     poster.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'center' });
+    
+    slide.innerText = "Poster " + (index + 1) + " of " + imageArray.length;
+}
+
+function advice(){
+    msg = "";
+    rnd = Math.floor(Math.random() * 4) + 1;
+
+    switch(rnd){
+        case 1:
+            msg = "↑ Not here! Slide the images! ↑";
+            break;
+
+        case 2:
+            msg = "↑ Slide right to left, on the section above! ↑";
+            break;
+
+        case 3:
+            msg = "↑ Moving here won't move anything ↑";
+            break;
+        
+        case 4:
+            msg = "↑ Don't slide here! ↑";
+            break;
+    }
+
+    slide.innerText = msg;
 }
 
 drawPosters();
