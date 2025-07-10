@@ -13,7 +13,7 @@ poster1 = new poster({
     title: "Kittens",
     owners: "Fernando, Peter & Ivan",
     image: "assets/images/poster1.jpg",
-    info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ornare justo nec rutrum sodales. Sed pellentesque elementum nibh eget pulvinar. Morbi suscipit, eros id porta rhoncus, libero libero tincidunt ex, eget rhoncus tortor est ut metus. Vestibulum eget ligula eget nulla lobortis lacinia sed a augue. Suspendisse potenti. Integer non mi et erat tincidunt volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec purus nisl, varius ut lacus ac, blandit consectetur ligula. Aliquam in lobortis velit. Cras nec viverra ex. Etiam luctus dignissim turpis, a facilisis neque aliquet nec. Pellentesque egestas congue cursus. Quisque nec enim vulputate, ultrices augue a, dictum nulla."
+    info: ""
 });
 
 poster2 = new poster({
@@ -30,6 +30,20 @@ poster3 = new poster({
     info: ""
 });
 
+poster4 = new poster({
+    title: "Sad Axolotl",
+    owners: "Irving, Santiago & Raúl",
+    image: "assets/images/poster4.jpg",
+    info: "Pollution destroyed it's home"
+});
+
+poster5 = new poster({
+    title: "Intolerant to Straws",
+    owners: "Irving, Santiago & Raúl",
+    image: "assets/images/poster5.jpg",
+    info: "Some turtles finding some trash in the ocean"
+});
+
 /* posterX = new poster({
     title: "",
     owners: "",
@@ -37,7 +51,7 @@ poster3 = new poster({
     info: ""
 }); */
 
-imageArray = [poster1, poster2, poster3];
+imageArray = [poster1, poster2, poster3, poster4, poster5];
 
 //! HTML Elements
 const headerTitle = document.getElementById("headerTitle");
