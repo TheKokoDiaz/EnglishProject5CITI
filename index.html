@@ -22,9 +22,11 @@
         << Slide above to see more images >>
     </section>
 
-    <section id="info">
-        <div id="infoTitle">Description</div>
-    </section>
+    <button id="infoButton" onclick="toggleInfo(true)">
+        <img src="assets/icons/info.png">
+    </button>
+
+    <section id="info" onclick="toggleInfo(false)"></section>
 
     <script src="assets/js/index.js"></script>
 </body>
