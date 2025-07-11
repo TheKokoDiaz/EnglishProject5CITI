@@ -13,7 +13,7 @@ poster1 = new poster({
     title: "Kittens",
     owners: "Fernando, Peter & Ivan",
     image: "assets/images/poster1.jpg",
-    info: "Please, take care of them!"
+    info: "Butts aren't only bad for you! Please, also take care of them!"
 });
 
 poster2 = new poster({
@@ -34,28 +34,63 @@ poster4 = new poster({
     title: "Sad Axolotl",
     owners: "Irving, Santiago & Raúl",
     image: "assets/images/poster4.jpg",
-    info: "Pollution destroyed it's home"
+    info: "Pollution destroyed it's home. Maybe that's why there are on risk of extinction?"
 });
 
 poster5 = new poster({
     title: "Intolerant to Straws",
     owners: "Irving, Santiago & Raúl",
     image: "assets/images/poster5.jpg",
-    info: "Some turtles finding some trash in the ocean"
+    info: "Some turtles finding some trash in the ocean. This can't finish well"
 });
 
 poster6 = new poster({
     title: "Angry Seal",
     owners: "Vicoddini",
     image: "assets/images/poster6.png",
-    info: "Poor seal"
+    info: "Poor seal, don't be rude and help taking care of the nature."
 });
 
 poster7 = new poster({
     title: "Every Piece Counts",
     owners: "Jimena, Bryan & Julio",
     image: "assets/images/poster7.jpg",
-    info: "It highlights the environmental consequences of littering on polar wildlife. It features a family of sad penguins stranded on a shrinking ice block, surrounded by floating garbage."
+    info: "It highlights the environmental consequences of littering on polar wildlife."
+});
+
+poster8 = new poster({
+    title: "Protect the World",
+    owners: "Sam, Ale & Ana",
+    image: "assets/images/poster8.jpg",
+    info: "Our world is theirs too. Protect nature so all creatures can thrive."
+});
+
+poster9 = new poster({
+    title: "Protect their paws",
+    owners: "Sam, Ale & Ana",
+    image: "assets/images/poster9.jpg",
+    info: "That sad puppy face says it all. Your trash can hurt them. Be kind. Pick it up."
+});
+
+poster10 = new poster({
+    title: "Recycle for them",
+    owners: "Sam, Ale & Ana",
+    image: "assets/images/poster10.png",
+    info: "Recycling reduces litter that harms animals. Help keep raccoons and all wildlife safe."
+});
+
+poster11 = new poster({
+    title: "Pokemons prefer the green",
+    owners: "The Koko Díaz",
+    image: "assets/images/poster11.png",
+    info: "Wanna have a Pokemon? At first, they're going to need a green space where to grow and train with their master."
+});
+
+poster12 = new poster({
+    title: "Hoot Hoot?",
+    owners: "Fernando, Peter & Ivan",
+    image: "assets/images/poster12.jpg",
+    info: "Despite their ecological importance, owls are often persecuted and hunted because of superstitions. Activists and environmental organizations are working to educate the public about the value of owls and promote their protection."
 });
 
 /* posterX = new poster({
@@ -65,7 +100,7 @@ poster7 = new poster({
     info: ""
 }); */
 
-imageArray = [poster1, poster2, poster3, poster4, poster5, poster6, poster7];
+imageArray = [poster1, poster2, poster3, poster4, poster5, poster6, poster7, poster8, poster9, poster10, poster11, poster12];
 
 //! HTML Elements
 const headerTitle = document.getElementById("headerTitle");
@@ -95,7 +130,7 @@ function toggleInfo(action){
     }
     
     if(!action){
-        info.style.bottom = "-20%";
+        info.style.bottom = "-14%";
         toggleInfoButton(true);
     }
 
