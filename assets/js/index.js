@@ -93,6 +93,13 @@ poster12 = new poster({
     info: "Despite their ecological importance, owls are often persecuted and hunted because of superstitions. Activists and environmental organizations are working to educate the public about the value of owls and promote their protection."
 });
 
+poster13 = new poster({
+    title: "Magazine No.9",
+    owners: "Bryan",
+    image: "assets/images/poster13.jpg",
+    info: "Take care of owls, specially because we share the university with them."
+});
+
 /* posterX = new poster({
     title: "",
     owners: "",
@@ -100,7 +107,7 @@ poster12 = new poster({
     info: ""
 }); */
 
-imageArray = [poster1, poster2, poster3, poster4, poster5, poster6, poster7, poster8, poster9, poster10, poster11, poster12];
+imageArray = [poster1, poster2, poster3, poster4, poster5, poster6, poster7, poster8, poster9, poster10, poster11, poster12, poster13];
 
 //! HTML Elements
 const headerTitle = document.getElementById("headerTitle");
