@@ -54,7 +54,7 @@ poster6 = new poster({
 poster7 = new poster({
     title: "Every Piece Counts",
     owners: "Jimena, Bryan & Julio",
-    image: "assets/images/poster7.jpg",
+    image: "assets/images/poster7.png",
     info: "It highlights the environmental consequences of littering on polar wildlife."
 });
 
@@ -75,7 +75,7 @@ poster9 = new poster({
 poster10 = new poster({
     title: "Recycle for them",
     owners: "Sam, Ale & Ana",
-    image: "assets/images/poster10.png",
+    image: "assets/images/poster10.jpg",
     info: "Recycling reduces litter that harms animals. Help keep raccoons and all wildlife safe."
 });
 
